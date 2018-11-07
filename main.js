@@ -111,3 +111,11 @@ getDayOfWeek(9);
 	(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 */
 
+var addPepperoniToPizza = function(ingredients) {
+  if (ingredients.indexOf('pepperoni') == -1) {
+    ingredients.push('pepperoni') 
+  }
+  console.log(ingredients);
+} 
+addPepperoniToPizza(['spinach', 'pepperoni', 'mushrooms']);
+addPepperoniToPizza(['onions', 'olives', 'pineapple'])
